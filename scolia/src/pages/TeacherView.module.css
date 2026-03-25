@@ -22,7 +22,7 @@
 }
 .stat { flex:1; display:flex; flex-direction:column; align-items:center; gap:2px; }
 .statNum {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 1.9rem;
   font-weight: 800;
   line-height: 1;
@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -136,7 +136,7 @@
   border-radius: 50%;
   background: linear-gradient(135deg, #6366f1, #8b5cf6);
   display: flex; align-items: center; justify-content: center;
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 0.75rem;
   font-weight: 800;
   color: white;
