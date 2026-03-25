@@ -132,37 +132,15 @@
   text-align: left;
   color: #fff;
   border: none;
-  transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1),
-              box-shadow 0.18s ease,
-              filter 0.18s ease;
+  box-shadow: none;
+  transition: filter 0.15s ease;
   animation: fadeInUp 0.5s ease-out both;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.18);
-  position: relative;
-  overflow: hidden;
 }
-.cta:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 28px rgba(0,0,0,0.22);
-  filter: brightness(1.06);
-}
-.cta:active {
-  transform: scale(0.97);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-}
+.cta:hover  { filter: brightness(1.07); }
+.cta:active { filter: brightness(0.95); }
 
-/* Subtle inner highlight */
-.cta::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 50%;
-  background: rgba(255,255,255,0.08);
-  border-radius: 20px 20px 0 0;
-  pointer-events: none;
-}
-
-.ctaGreen { background: linear-gradient(145deg, #15803d 0%, #22c55e 100%); }
-.ctaCoral { background: linear-gradient(145deg, #c2410c 0%, #f97316 100%); animation-delay: 0.08s; }
+.ctaGreen { background: #16a34a; }
+.ctaCoral { background: #ea580c; animation-delay: 0.08s; }
 
 .ctaIcon { font-size: 2rem; flex-shrink: 0; }
 
