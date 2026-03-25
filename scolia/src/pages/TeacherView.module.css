@@ -5,7 +5,7 @@
   gap: 16px;
   overflow-y: auto;
   flex: 1;
-  font-family: 'Lora', Georgia, serif;
+  font-family: var(--font-body);
 }
 
 /* Stats */
@@ -150,8 +150,6 @@
 /* School card content */
 .summary {
   font-size: 0.87rem;
-  font-family: 'Lora', Georgia, serif;
-  font-style: italic;
   color: var(--text-secondary);
   line-height: 1.6;
 }
