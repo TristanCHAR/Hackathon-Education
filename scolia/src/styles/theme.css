@@ -1,0 +1,73 @@
+/* src/styles/theme.css */
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Plus Jakarta Sans', 'Nunito', sans-serif;
+
+  /* ── Light (Jour) ─────────────────────── */
+  --bg-primary:      #f2f0ea;
+  --bg-card:         rgba(255,255,255,0.82);
+  --bg-input:        rgba(255,255,255,0.95);
+  --glass-bg:        rgba(255,255,255,0.65);
+  --glass-border:    rgba(255,255,255,0.9);
+  --glass-blur:      blur(20px);
+
+  --text-primary:    #12121f;
+  --text-secondary:  #4a4a6a;
+  --text-muted:      #8888aa;
+  --border:          rgba(0,0,0,0.08);
+  --shadow:          rgba(0,0,0,0.07);
+  --shadow-lg:       rgba(0,0,0,0.12);
+
+  --color-green:      #16a34a;
+  --color-green-soft: rgba(22,163,74,0.10);
+  --color-green-glow: rgba(22,163,74,0.25);
+  --color-coral:      #ea580c;
+  --color-coral-soft: rgba(234,88,12,0.10);
+  --color-coral-glow: rgba(234,88,12,0.25);
+
+  --bubble-user-bg:   linear-gradient(135deg, #16a34a, #22c55e);
+  --bubble-user-text: #ffffff;
+  --bubble-ai-bg:     rgba(255,255,255,0.9);
+  --bubble-ai-border: rgba(0,0,0,0.06);
+  --bubble-ai-text:   #12121f;
+
+  /* aurora blobs */
+  --blob1: rgba(99,102,241,0.12);
+  --blob2: rgba(249,115,22,0.10);
+  --blob3: rgba(20,184,166,0.08);
+  --blob4: rgba(236,72,153,0.07);
+}
+
+.dark {
+  --bg-primary:      #080810;
+  --bg-card:         rgba(255,255,255,0.04);
+  --bg-input:        rgba(255,255,255,0.07);
+  --glass-bg:        rgba(255,255,255,0.05);
+  --glass-border:    rgba(255,255,255,0.09);
+
+  --text-primary:    #eeeef8;
+  --text-secondary:  #9999cc;
+  --text-muted:      #5555888;
+  --border:          rgba(255,255,255,0.08);
+  --shadow:          rgba(0,0,0,0.4);
+  --shadow-lg:       rgba(0,0,0,0.6);
+
+  --color-green:      #4ade80;
+  --color-green-soft: rgba(74,222,128,0.12);
+  --color-green-glow: rgba(74,222,128,0.3);
+  --color-coral:      #fb923c;
+  --color-coral-soft: rgba(251,146,60,0.12);
+  --color-coral-glow: rgba(251,146,60,0.3);
+
+  --bubble-user-bg:   linear-gradient(135deg, #15803d, #4ade80);
+  --bubble-user-text: #ffffff;
+  --bubble-ai-bg:     rgba(255,255,255,0.06);
+  --bubble-ai-border: rgba(255,255,255,0.09);
+  --bubble-ai-text:   #eeeef8;
+
+  /* aurora blobs */
+  --blob1: rgba(99,102,241,0.45);
+  --blob2: rgba(249,115,22,0.32);
+  --blob3: rgba(20,184,166,0.25);
+  --blob4: rgba(236,72,153,0.22);
+}
