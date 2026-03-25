@@ -4,7 +4,7 @@ import styles from './Layout.module.css'
 import { useNavigate } from 'react-router-dom'
 import { getStudentName } from '../utils/studentName'
 
-export default function Layout({ title, onBack, accentColor, children }) {
+export default function Layout({ title, onBack, accentColor, bodyFont = false, children }) {
   const navigate = useNavigate()
   const name = getStudentName()
 
@@ -22,7 +22,10 @@ export default function Layout({ title, onBack, accentColor, children }) {
           )}
         </div>
 
-        <h1 className={styles.title} style={{ '--accent': accentColor }}>{title}</h1>
+        <h1
+          className={styles.title}
+          style={{ '--accent': accentColor, fontFamily: bodyFont ? 'var(--font-body)' : undefined }}
+        >{title}</h1>
 
         <div className={styles.right}>
           {name && <span className={styles.namePill}>{name}</span>}

@@ -102,7 +102,7 @@ export default function TeacherView() {
   const criticalCount    = wellbeingSignals.length
 
   return (
-    <Layout title="Vue Professeur" onBack>
+    <Layout title="Vue Professeur" onBack bodyFont>
       <div className={styles.container}>
 
         {/* Stats */}
